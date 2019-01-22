@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Century-Gothic-B';
+    transition: all .5s;
+}
+
+.header-txt{
+    width: 100%;
+    height: 80px;
+    background-color:darkslategray;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    color:whitesmoke;
+}
+
+.login-info{
+    width: 470px;
+    height: 385px;
+    margin:1.5rem  auto 2.5rem  auto;
+    padding:1.5rem;
+    border: 1px solid black;
+    border-radius: .4rem;
+}
+
+.txt{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.input-line{
+    margin:1rem auto 1rem auto;
+}
+
+.input-tip{
+    font-size: 1.5rem;
+    color: darkslategray;
+}
+
+.input-field{
+    width: 19rem;
+    height: 1.8rem;
+    border-radius: .4rem;
+    font-size: 1.3rem;
+    border-color: black;
+}
+
+.phone-btn{
+    width:8rem;
+    height: 2rem;
+    border-radius: .4rem;
+    font-size: 1.3rem;
+    background-color: skyblue;
+    color: darkslategray;
+}
+
+.code-tip{
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+
+.code-field{
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: .4rem;
+    font-size: 1.3rem;
+}
+
+.submit{
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: .4rem;
+    background-color: skyblue;
+    color: darkslategray;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 7rem;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+address{
+    margin:auto 1rem ;
+}
+
+
+.phone{
+    visibility: hidden;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+.header {
+    width: 100%;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+.title{
+    display: inline-block;
+    margin:1rem auto ;
+    font-size: 2.5rem;
+}
+
+.content{
+    width: 100%;
+}
+
+.person-data{
+    width: 50%;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+
+.input-line{
+    margin-bottom: 1rem;
+}
+
+.input-field{
+    width:30%;
+    height: 1.8rem;
+    border-radius: .4rem;
+    font-size: 1.3rem;
+}
+
+.txt{
+    border-radius: .5rem;
+    font-size: 1.3rem;
+}
+
+.btn{
+    width: 6rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: .4rem;
+    background-color: skyblue;
+    color: darkslategray;
+}
+
+.head-sculpture{
+    width: 20%;
+    height: 20%;
+}
+
+.footer{
+    width: 100%;
+    height: 7rem;
+    padding: .5rem;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+

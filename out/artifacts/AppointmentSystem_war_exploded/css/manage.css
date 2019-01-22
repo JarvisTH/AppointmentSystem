@@ -1,0 +1,122 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    transition: all .5s;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover{
+    color: skyblue;
+}
+
+.header{
+    width: 100%;
+    background-color: darkslategray;
+}
+
+.title{
+    display: inline-block;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.main{
+    width: 100%;
+    height: 45rem;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.sidebar{
+    display: flex;
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 2rem;
+    border: .1rem solid black;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-button{
+    width: 100%;
+    padding: .5rem;
+    text-align: center;
+    border-bottom: .1rem solid white;
+}
+
+
+.content{
+    float: right;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    border: .1rem solid black;
+}
+
+.detail{
+    position: absolute;
+}
+
+.info-part{
+    margin: 1rem;
+}
+
+.user-image{
+    width: 20%;
+}
+
+.modify-part{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+
+.btn{
+    padding: .5rem;
+    border: .1rem solid goldenrod;
+    border-radius: .4rem;
+}
+
+.space{
+    margin-top: 2rem;
+}
+
+.page-person{
+    z-index: 999;
+    width: 70%;
+    height: 82%;
+    background-color: white;
+}
+
+.page-project{
+    z-index: 1;
+    width: 70%;
+    height: 82%;
+    background-color: white;
+}
+
+.page-skill{
+    z-index: 1;
+    width: 70%;
+    height: 82%;
+    background-color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 6rem;
+    padding: .5rem;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+address{
+    margin:auto 1rem ;
+}
+
